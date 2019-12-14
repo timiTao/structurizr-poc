@@ -1,0 +1,19 @@
+{
+  "name": "timitao/structurizr-poc",
+  "description": "PoC for C4 diagrams and structurizr tool",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tomasz Kunicki"
+    }
+  ],
+  "require-dev": {
+    "structurizr-php/structurizr-php": "dev-master",
+    "monolog/monolog": "^2.0",
+    "symfony/http-client": "^4.3",
+    "struturizr-php/extensions-php": "@dev",
+    "psr/http-factory": "1.0.*",
+    "nyholm/psr7": "1.2.*"
+  }
+}
