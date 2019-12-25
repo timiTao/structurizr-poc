@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/beberlei/assert.git",
-                "reference": "99508be011753690fe108ded450f5caaae180cfa"
+                "reference": "d63a6943fc4fd1a2aedb65994e3548715105abcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beberlei/assert/zipball/99508be011753690fe108ded450f5caaae180cfa",
-                "reference": "99508be011753690fe108ded450f5caaae180cfa",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/d63a6943fc4fd1a2aedb65994e3548715105abcf",
+                "reference": "d63a6943fc4fd1a2aedb65994e3548715105abcf",
                 "shasum": ""
             },
             "require": {
@@ -67,63 +67,7 @@
                 "assertion",
                 "validation"
             ],
-            "time": "2019-10-10T10:33:57+00:00"
-        },
-        {
-            "name": "doctrine/instantiator",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "eca6c638ef64433b2e36a9221826e75e39c65eb9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/eca6c638ef64433b2e36a9221826e75e39c65eb9",
-                "reference": "eca6c638ef64433b2e36a9221826e75e39c65eb9",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1"
-            },
-            "require-dev": {
-                "doctrine/coding-standard": "^6.0",
-                "ext-pdo": "*",
-                "ext-phar": "*",
-                "phpbench/phpbench": "^0.13",
-                "phpstan/phpstan-phpunit": "^0.11",
-                "phpstan/phpstan-shim": "^0.11",
-                "phpunit/phpunit": "^7.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.4.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com",
-                    "homepage": "http://ocramius.github.com/"
-                }
-            ],
-            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
-            "homepage": "https://www.doctrine-project.org/projects/instantiator.html",
-            "keywords": [
-                "constructor",
-                "instantiate"
-            ],
-            "time": "2019-12-06T20:47:21+00:00"
+            "time": "2019-12-19T17:51:41+00:00"
         },
         {
             "name": "globtec/phpadr",
@@ -184,12 +128,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "38449de333489cd0498a047c27c9c6f1845f52ed"
+                "reference": "f2d431523774cb675409669f0eec1e6cf127cc5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/38449de333489cd0498a047c27c9c6f1845f52ed",
-                "reference": "38449de333489cd0498a047c27c9c6f1845f52ed",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f2d431523774cb675409669f0eec1e6cf127cc5c",
+                "reference": "f2d431523774cb675409669f0eec1e6cf127cc5c",
                 "shasum": ""
             },
             "require": {
@@ -257,7 +201,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2019-12-11T21:01:17+00:00"
+            "time": "2019-12-22T10:22:41+00:00"
         },
         {
             "name": "nyholm/psr7",
@@ -624,17 +568,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/structurizr-php/structurizr-php.git",
-                "reference": "1b8d0e6daf4b08d4f4df5eaafb2736eb6828b867"
+                "reference": "eb4bb95fbedba2c2668d51a7a8187a3d122ab251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/structurizr-php/structurizr-php/zipball/1b8d0e6daf4b08d4f4df5eaafb2736eb6828b867",
-                "reference": "1b8d0e6daf4b08d4f4df5eaafb2736eb6828b867",
+                "url": "https://api.github.com/repos/structurizr-php/structurizr-php/zipball/eb4bb95fbedba2c2668d51a7a8187a3d122ab251",
+                "reference": "eb4bb95fbedba2c2668d51a7a8187a3d122ab251",
                 "shasum": ""
             },
             "require": {
                 "beberlei/assert": "^3.2",
-                "doctrine/instantiator": "^1.2",
                 "ext-iconv": "*",
                 "ext-json": "*",
                 "php": "^7.3",
@@ -676,7 +619,7 @@
                 }
             ],
             "description": "Structurizr for PHP",
-            "time": "2019-12-11T09:16:22+00:00"
+            "time": "2019-12-24T19:19:40+00:00"
         },
         {
             "name": "struturizr-php/extensions-php",
@@ -730,12 +673,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "f0aea3df20d15635b3cb9730ca5eea1c65b7f201"
+                "reference": "82437719dab1e6bdd28726af14cb345c2ec816d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/f0aea3df20d15635b3cb9730ca5eea1c65b7f201",
-                "reference": "f0aea3df20d15635b3cb9730ca5eea1c65b7f201",
+                "url": "https://api.github.com/repos/symfony/console/zipball/82437719dab1e6bdd28726af14cb345c2ec816d0",
+                "reference": "82437719dab1e6bdd28726af14cb345c2ec816d0",
                 "shasum": ""
             },
             "require": {
@@ -798,7 +741,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-12-01T10:06:17+00:00"
+            "time": "2019-12-17T10:32:23+00:00"
         },
         {
             "name": "symfony/http-client",
@@ -806,12 +749,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "6c235cf15d8b516b41204a28d555685191409729"
+                "reference": "9ebfc77b5018a05226b38642def82746f3e2ce0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/6c235cf15d8b516b41204a28d555685191409729",
-                "reference": "6c235cf15d8b516b41204a28d555685191409729",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/9ebfc77b5018a05226b38642def82746f3e2ce0f",
+                "reference": "9ebfc77b5018a05226b38642def82746f3e2ce0f",
                 "shasum": ""
             },
             "require": {
@@ -866,7 +809,7 @@
             ],
             "description": "Symfony HttpClient component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-29T16:55:58+00:00"
+            "time": "2019-12-19T15:57:49+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
